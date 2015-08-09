@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
 using System.Threading;
+using Tree.Persister;
+using Tree.Serializer;
 
 namespace Tree
 {
@@ -16,7 +18,7 @@ namespace Tree
         private volatile bool disposed;
         private Thread thread;
 
-        public RTree(Config config)
+        public RTree(Config config, IPersister persister, IFactory factory)
         {
             this.config = config.Copy();
             this.queue = new ConcurrentQueue<Operation>();

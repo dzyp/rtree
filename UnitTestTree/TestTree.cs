@@ -62,7 +62,7 @@ namespace UnitTestTree
         [TestMethod]
         public void TestAdd()
         {
-            var rtree = new RTree(new Config());
+            var rtree = new RTree(new Config(), null, null);
             rtree.Add(new Rectangle(1, 2, 3, 4));
             rtree.Dispose();
         }
