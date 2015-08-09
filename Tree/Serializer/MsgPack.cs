@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using MsgPack.Serialization;
 using System.IO;
 
-namespace TestTree.Serializer
+namespace Tree.Serializer
 {
     public class MsgPackSerializer<T>: ISerializer<T>
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Collections.Concurrent;
 using System.Threading;
 
-namespace TestTree
+namespace Tree
 {
     public class RTree : IDisposable
     {

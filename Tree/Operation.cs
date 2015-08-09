@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TestTree
+namespace Tree
 {
     enum OperationType : byte {Add = 0, Remove, Read}
 

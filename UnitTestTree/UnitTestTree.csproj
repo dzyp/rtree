@@ -57,7 +57,7 @@
     <Compile Include="TestTree.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestTree\Tree.csproj">
+    <ProjectReference Include="..\Tree\Tree.csproj">
       <Project>{66202f7d-96e6-4ad1-a6a4-ce2292294140}</Project>
       <Name>Tree</Name>
     </ProjectReference>
